@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">OdaAssignment</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="dash_main_header">Hei Mia! Når vil du ha varene levert?</string>
+    <string name="dash_btn_title">Velg leveringstid</string>
+    <string name="dash_btn_select_delivary_time">Reserver valget ditt i 60 minutter og få bedre\noversikt over hva som er tilgjengelig!</string>
+
+    <string name="hint_add_to_cart">Handlekurven er tom</string>
+
+    <string name="product_list_title">Varer vi tror du trenger</string>
+
+    <string name="lbl_add">Add</string>
+    <string name="product_name">Ekstra Saftige Klementinerfdfdf efdere</string>
+    <string name="product_name_extra">Med Blader, Spania, 900 g effdgfgfgfgddf</string>
+    <string name="product_gross_unit_price">47.67 kr</string>
+    <string name="product_gross_price">42.90 kr</string>
+
+</resources>

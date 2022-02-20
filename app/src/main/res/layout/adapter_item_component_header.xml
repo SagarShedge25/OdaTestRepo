@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <TextView
+        android:id="@+id/txtMainHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/inter_medium"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="@string/dash_main_header"
+        android:textAlignment="center"
+        android:textColor="@color/grayColor_90"
+        android:textSize="@dimen/txt_18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/btnMainHeader"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/white"
+        android:elevation="8dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="@string/dash_btn_title"
+        android:textAllCaps="false"
+        android:textColor="@color/purple_70"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMainHeader" />
+
+    <TextView
+        android:id="@+id/txtSelectDelivaryTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/inter_regular"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="@string/dash_btn_select_delivary_time"
+        android:textAlignment="center"
+        android:textColor="@color/grayColor_70"
+        android:textSize="@dimen/txt_14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMainHeader" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
